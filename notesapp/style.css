@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(122, 122, 196);
+}
+.container
+{
+    padding-left: 10vw;
+    margin-top: 5vw;
+    width: 80%;
+    max-width: 600px;
+}
+h2{
+    color: rgb(173, 223, 207);
+    margin-bottom: 15px;
+}
+h2>img{
+    width: 30px;
+}
+#addbtn
+{
+    padding: 5px 10px;
+    background-color: green;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+#addbtn:active{
+    background-color: black;
+    cursor: pointer;
+}
+#notes-container
+{
+    /* display: none; */
+    width: 80%;
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+}
+.note
+{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+}
+.noteText
+{
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.delImg
+{
+    width: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
